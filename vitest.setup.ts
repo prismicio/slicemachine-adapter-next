@@ -1,5 +1,6 @@
 import { beforeEach } from "vitest";
-import { createSliceMachinePluginRunner,
+import {
+	createSliceMachinePluginRunner,
 	SliceMachinePlugin,
 	SliceMachinePluginRunner,
 	SliceMachineProject,
@@ -8,7 +9,7 @@ import * as fs from "node:fs/promises";
 import * as path from "node:path";
 import * as os from "node:os";
 
-import adapter, {PluginOptions} from "./src";
+import adapter, { PluginOptions } from "./src";
 
 declare module "vitest" {
 	export interface TestContext {

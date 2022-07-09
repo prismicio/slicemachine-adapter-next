@@ -7,7 +7,7 @@
 [![Conventional Commits][conventional-commits-src]][conventional-commits-href]
 [![License][license-src]][license-href]
 
-A [Slice Machine][slicemachine] adapter for [Next.js][nextjs].
+[Slice Machine][slicemachine] adapter for [Next.js][nextjs].
 
 <!--
 
