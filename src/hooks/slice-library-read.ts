@@ -1,7 +1,7 @@
 import type { SliceLibraryReadHook } from "@slicemachine/plugin-kit";
 import * as prismicT from "@prismicio/types";
 import * as fs from "node:fs/promises";
-import * as path from "path";
+import * as path from "node:path";
 
 import { readJSONFile } from "../lib/readJSONFile";
 
